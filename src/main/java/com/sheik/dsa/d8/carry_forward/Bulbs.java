@@ -46,6 +46,9 @@ import java.util.ArrayList;
  * Explanation 2:
  *
  *  There is no need to turn any switches as all the bulbs are already on.
+ *
+ *  approach1:
+ *      TC = O(N); SC = O(1)
  */
 public class Bulbs {
 
@@ -60,6 +63,8 @@ public class Bulbs {
      *  Global counter is even then switch is in original state
      *  Global counter is odd then switch is the changed state
      *
+     * approach1:
+     *      TC = O(N); SC = O(1)
      */
     public int approach1(ArrayList<Integer> A){
         int stateChangeCounter = 0;
