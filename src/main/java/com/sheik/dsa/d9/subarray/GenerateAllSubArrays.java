@@ -1,4 +1,4 @@
-package com.sheik.dsa.d9_subarray;
+package com.sheik.dsa.d9.subarray;
 
 import com.sheik.dsa.util.Utils;
 

@@ -95,7 +95,7 @@ public class MaxSumSubarray {
         }
         int maxSum = sum;
 
-        
+
         s++;
         e++;
         while (e < input.length){
