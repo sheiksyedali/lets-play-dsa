@@ -23,4 +23,15 @@ public class Utils {
             System.out.print(input[i]+", ");
         }
     }
+
+    public static void printInt2DArray(int[][] input){
+        int rows=input.length;
+        int columns=input[0].length;
+        for(int i=0; i<rows; i++){
+            for(int j=0; j<columns; j++){
+                System.out.print(input[i][j]+", ");
+            }
+            System.out.println();
+        }
+    }
 }
